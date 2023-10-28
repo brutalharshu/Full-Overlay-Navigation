@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>How To Create a Full screen Overlay Navigation </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="fullPageMenu" id="nav">
+        <div class="banner">
+            <img src="https://images.unsplash.com/photo-1453989799106-bbad8d7b5191?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" alt="image">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#" data-text="Home">Home</a></li>
+                <li><a href="#" data-text="About">About</a></li>
+                <li><a href="#" data-text="Services">Services</a></li>
+                <li><a href="#" data-text="Team">Team</a></li>
+                <li><a href="#" data-text="Portfolio">Portfolio</a></li>
+                <li><a href="#" data-text="Contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+<!-- can remove footer -->
+    <style>
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 50px;
+      }
+    </style>
+    <footer>
+      <p>
+        <a href="https://www.instagram.com/ig.harsh_07/" target="_blank">~ HaRsH</a>
+      </p>
+    </footer>
+    <!-- can remove footer -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
